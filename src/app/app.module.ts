@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // library modules
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTabsModule } from '@angular/material/tabs';
+
 // components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
@@ -31,6 +33,7 @@ import { ServicesComponent } from './modules/services/services.component';
     // library modules
     MatToolbarModule,
     MatIconModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
